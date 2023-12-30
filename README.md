@@ -12,3 +12,5 @@ Make sure your friend has pip installed. (it should come with python)
 Ok. download `main.py` and `amogus.gif`.
 Run the file.
 Done!
+---
+[view original file](https://replit.com/@sukbollz/ligma?v=1#main.py)
