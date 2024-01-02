@@ -3,7 +3,6 @@
 
 # packages
 from time import *
-from typing import Match
 import inquirer as inq
 import sys
 import tkinter as tk
@@ -57,7 +56,7 @@ def winSpam():
 
 
 def adwinSpam():
-    for i in range(0, 10):
+ for i in range(0, 10):
         print("HAHAHA SUCKER!!!!")
         bruh = tk.Tk()
         bruh.title("HAHAHA SUCKER!!!!")
@@ -70,21 +69,25 @@ def adwinSpam():
             font=("Arial", 20))
         bruh.mainloop()
         sleep(0.3)
-    rickWin = tk.Tk()
-    rickWin.title("RICK ROLL!!!!")
-    rickWin.attributes("-fullscreen", True)
-    # Open the image file
-    image = Image.open("amogus.gif")
-    # Resize the image to fit the window
-    image = image.resize(
-        (rickWin.winfo_screenwidth(), rickWin.winfo_screenheight()))
-    # Convert the image to a Tkinter-compatible photo image
-    tk_image = ImageTk.PhotoImage(image)
-    # Create a label to display the image
-    label = tk.Label(rickWin, image=tk_image)
-    label.pack()
-    rickWin.mainloop()
-    print("NEVER GONNA GIVE YOU UP!!!!")
+        rickWin = tk.Tk()
+        screenw = rickWin.winfo_screenwidth()
+        screenh = rickWin.winfo_screenheight()
+        rickWin.title("RICK ROLL!!!!")
+        rickWin.geometry("%dx%d" % (screenw, screenh))
+        # Open the image file
+        image = Image.open("rick-roll-icegif-5.gif")
+        # Resize the image to fit the window
+        image = image.resize(
+            (rickWin.winfo_screenwidth(), rickWin.winfo_screenheight()))
+        # Convert the image to a Tkinter-compatible photo image
+        tk_image = ImageTk.PhotoImage(image)
+        # Create a label to display the image
+        label = tk.Label(rickWin, image=tk_image)
+        label.pack()
+        rickWin.mainloop()
+        sleep(2)
+        rickWin.destroy()
+        print("NEVER GONNA GIVE YOU UP!!!!")
 
 
 opsys = platform.system()
@@ -117,19 +120,24 @@ polquestions = [
 pol = inq.prompt(polquestions)
 if pol['yn'] == 'No':
     print('''\n HAHAHA wrong answer''')
+	print("psst! (you can close the window 20 times and it will stop).")
+    for i in range(0, 20):
+        arghwin = tk.Tk()
+        arghwin.title("HAHAHAHA")
+        arghwin.mainloop()
 if pol['yn'] == 'Yes':
     print('''Installing notavirus.exe...''')
     sleep(0.2)
     # security window
     if opsys == "Linux":
         linux = tk.Tk()
-        linux.title("user@sukbolls:~$")
+        linux.title("amogus@sukbollz:~$")
         linux.geometry("")
         linux.configure(bg="red")
         lLabel = tk.Label(
             linux,
             text=
-            "Linux has found a threat to your computer in \n home/rickroll/Documents/SUKBOLLZ/SUKBOLLZ.exe",
+            "Linux vscan has found a threat to your computer in \n /usr/bin/home/amogus/Documents/sukbollz/sukbollz.tar.gz",
             bg="red",
             fg="white")
         lButton = tk.Button(linux,
@@ -173,7 +181,7 @@ if pol['yn'] == 'Yes':
         macLabel = tk.Label(
             mac,
             text=
-            "Your Mac has found a threat to your computer in \n home/Users/rickroll/Documents/SUKBOLLZ/SUKBOLLZ.exe",
+            "Your Mac has found a threat to your computer in \n /Users/amogus/Documents/SUKBOLLZ/sukbollz.app",
             bg="red",
             fg="white")
         macButton = tk.Button(mac,
