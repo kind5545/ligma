@@ -13,4 +13,3 @@ Ok. download `main.py` and `amogus.gif`.
 Run the file.
 Done!
 ---
-[view original file](https://replit.com/@sukbollz/ligma?v=1#main.py)
