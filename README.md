@@ -100,4 +100,4 @@ Follow the instructions for your operating system.
 Thanks for pranking your friend! Attribution is appreciated, but **not** required.  
 
 Good luck!  
--kind22232
+-kind2232
